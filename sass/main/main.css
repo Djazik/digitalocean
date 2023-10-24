@@ -1,0 +1,764 @@
+@import url(../header/header.css);
+@import url(../footer/footer.css);
+@font-face {
+  font-family: "roboto";
+  src: url(../../fonts/Roboto-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+button {
+  color: #fff;
+  font-family: "roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 6px;
+  background: #0082f4;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+  background: none;
+  border: 1px solid #0082f4;
+}
+
+.main .smart {
+  padding: 30px 0;
+  display: flex;
+  gap: 120px;
+}
+.main .smart .smart_item {
+  width: 50%;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.main .smart .smart_item h3 {
+  color: #0080fd;
+  font-family: "roboto";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.main .smart .smart_item h2 {
+  padding-top: 5px;
+  color: #000;
+  font-family: "roboto";
+  font-size: 60px;
+  font-style: normal;
+}
+.main .smart .smart_item h2 span {
+  color: #0082f4;
+  font-family: "roboto";
+  font-size: 60.55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.main .smart .smart_item p {
+  padding: 25px 0;
+  color: #000;
+  font-family: "roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.6;
+}
+.main .smart .smart_item .buttons {
+  display: flex;
+  gap: 30px;
+}
+.main .smart .smart_item .buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main .smart .smart_item .buttons button span {
+  display: flex;
+  align-items: center;
+}
+.main .smart .smart__img {
+  width: 50%;
+}
+.main .about {
+  padding: 40px 0;
+  display: flex;
+  gap: 100px;
+}
+.main .about .about_img {
+  width: 50%;
+}
+.main .about .about_img img {
+  width: 100%;
+}
+.main .about .about_item {
+  width: 50%;
+  padding-top: 95px;
+}
+.main .about .about_item h3 {
+  color: #0082f4;
+  font-family: "roboto";
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.main .about .about_item h2 {
+  color: #000;
+  font-family: "roboto";
+  font-size: 45px;
+}
+.main .about .about_item p {
+  color: #000;
+  font-family: "roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.6;
+  padding: 25px 0;
+}
+.main .work {
+  padding: 40px 0;
+}
+.main .work h2 {
+  text-align: center;
+  padding-bottom: 60px;
+  color: #000;
+  font-family: "roboto";
+  font-size: 48.44px;
+  font-style: normal;
+  font-weight: 550;
+}
+.main .work .work_item {
+  display: flex;
+  gap: 50px;
+}
+.main .work .work_item .work__box {
+  width: 32%;
+}
+.main .work .work_item .work__box .work__img {
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+.main .work .work_item .work__box h3 {
+  text-align: center;
+  color: #000;
+  font-family: "roboto";
+  font-size: 28px;
+  font-style: normal;
+  padding-bottom: 10px;
+}
+.main .work .work_item .work__box p {
+  color: #000;
+  text-align: center;
+  font-family: "roboto";
+  font-size: 20px;
+  opacity: 0.6;
+}
+.main .say {
+  padding: 40px 0;
+}
+.main .say .say_item {
+  display: flex;
+  justify-content: space-between;
+}
+.main .say .say_item h2 {
+  color: #000;
+  font-family: "roboto";
+  font-size: 48.44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 72.66px */
+}
+.main .say .say__content {
+  padding-top: 60px;
+  display: flex;
+  gap: 50px;
+}
+.main .sing {
+  padding: 40px 0;
+  background: rgba(232, 236, 255, 0.3);
+}
+.main .sing .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .sing .container .sing_item h2 {
+  text-align: center;
+  color: #058aff;
+  font-family: "roboto";
+  font-size: 31.25px;
+  font-weight: 500;
+}
+.main .sing .container .sing_item h3 {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-family: "roboto";
+  font-weight: 500;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.main .sing .container .sing_content {
+  border-radius: 10px;
+  border: 1px solid #058aff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  width: 447px;
+}
+.main .sing .container .sing_content span {
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+}
+.main .sing .container .sing_content p {
+  padding-right: 100px;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .main .container {
+    padding: 0 40px;
+  }
+  .main .container .smart .smart_item h3 {
+    font-size: 20px;
+  }
+  .main .container .smart .smart_item h2 {
+    font-size: 35px;
+  }
+  .main .container .smart .smart_item h2 span {
+    font-size: 35px;
+  }
+  .main .container .smart .smart_item p {
+    font-size: 15px;
+  }
+  .main .container .smart .smart_item .buttons button {
+    font-size: 10px;
+  }
+  .main .container .smart .smart__img {
+    width: 50%;
+  }
+  .main .container .smart .smart__img img {
+    width: 100%;
+  }
+  .main .container .about .about_img {
+    width: 50%;
+  }
+  .main .container .about .about_img img {
+    width: 100%;
+  }
+  .main .container .about .about_item {
+    padding: 35px 0;
+  }
+  .main .container .about .about_item h3 {
+    font-size: 20px;
+  }
+  .main .container .about .about_item h2 {
+    font-size: 30px;
+  }
+  .main .container .about .about_item p {
+    font-size: 15px;
+  }
+  .main .container .work h2 {
+    font-size: 30px;
+  }
+  .main .container .work .work_item {
+    display: flex;
+    gap: 50px;
+  }
+  .main .container .work .work_item .work__box {
+    width: 32%;
+  }
+  .main .container .work .work_item .work__box .work__img {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .work .work_item .work__box h3 {
+    font-size: 28px;
+  }
+  .main .container .work .work_item .work__box p {
+    font-size: 18px;
+  }
+  .main .container .say {
+    padding: 40px 0;
+  }
+  .main .container .say .say_item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .container .say .say_item h2 {
+    font-size: 40.44px;
+  }
+  .main .container .say .say__content {
+    padding-top: 60px;
+    display: flex;
+    gap: 50px;
+  }
+  .main .container .sing {
+    padding: 40px 0;
+    background: rgba(232, 236, 255, 0.3);
+  }
+  .main .container .sing .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .sing .container .sing_item h2 {
+    font-size: 31.25px;
+  }
+  .main .container .sing .container .sing_item h3 {
+    font-size: 20px;
+  }
+  .main .container .sing .container .sing_content {
+    border-radius: 10px;
+    border: 1px solid #058aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    width: 447px;
+  }
+  .main .container .sing .container .sing_content span {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+  }
+  .main .container .sing .container .sing_content p {
+    padding-right: 100px;
+  }
+}
+@media (min-width: 776px) and (max-width: 990px) {
+  .main .container {
+    padding: 0 50px;
+  }
+  .main .container .smart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .smart .smart_item h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .main .container .smart .smart_item h2 {
+    text-align: center;
+    font-size: 55px;
+  }
+  .main .container .smart .smart_item h2 span {
+    font-size: 55px;
+  }
+  .main .container .smart .smart_item p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .main .container .smart .smart_item .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .smart .smart_item .buttons button {
+    font-size: 15px;
+  }
+  .main .container .smart .smart__img {
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .about .about_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .about .about_item h3 {
+    font-size: 20px;
+  }
+  .main .container .about .about_item h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .main .container .about .about_item p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .main .container .work h2 {
+    font-size: 30px;
+  }
+  .main .container .work .work_item {
+    display: flex;
+    gap: 50px;
+  }
+  .main .container .work .work_item .work__box {
+    width: 32%;
+  }
+  .main .container .work .work_item .work__box .work__img {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .work .work_item .work__box h3 {
+    font-size: 20px;
+  }
+  .main .container .work .work_item .work__box p {
+    font-size: 12px;
+  }
+  .main .container .say {
+    padding: 40px 0;
+  }
+  .main .container .say .say_item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .container .say .say_item h2 {
+    font-size: 30.44px;
+  }
+  .main .container .say .say__content {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .main .container .say .say__content img {
+    width: 100%;
+  }
+  .main .container .sing {
+    padding: 40px 0;
+    background: rgba(232, 236, 255, 0.3);
+  }
+  .main .container .sing .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .sing .container .sing_item h2 {
+    font-size: 31.25px;
+  }
+  .main .container .sing .container .sing_item h3 {
+    font-size: 20px;
+  }
+  .main .container .sing .container .sing_content {
+    border-radius: 10px;
+    border: 1px solid #058aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    width: 447px;
+  }
+  .main .container .sing .container .sing_content span {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+  }
+  .main .container .sing .container .sing_content p {
+    padding-right: 100px;
+  }
+}
+@media (min-width: 447px) and (max-width: 776px) {
+  .main .container {
+    padding: 0 50px;
+  }
+  .main .container .smart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .smart .smart_item h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .main .container .smart .smart_item h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .main .container .smart .smart_item h2 span {
+    font-size: 30px;
+  }
+  .main .container .smart .smart_item p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .main .container .smart .smart_item .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .main .container .smart .smart_item .buttons button {
+    font-size: 10px;
+  }
+  .main .container .smart .smart__img {
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .smart .smart__img img {
+    width: 100%;
+  }
+  .main .container .about {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .about .about_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .about .about_item h3 {
+    font-size: 18px;
+  }
+  .main .container .about .about_item h2 {
+    text-align: center;
+    font-size: 23px;
+  }
+  .main .container .about .about_item p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .main .container .about .about_item button {
+    font-size: 14px;
+  }
+  .main .container .work h2 {
+    font-size: 30px;
+  }
+  .main .container .work .work_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .main .container .work .work_item .work__box {
+    width: 32%;
+  }
+  .main .container .work .work_item .work__box .work__img {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .work .work_item .work__box h3 {
+    font-size: 20px;
+  }
+  .main .container .work .work_item .work__box p {
+    font-size: 12px;
+  }
+  .main .container .say {
+    padding: 40px 0;
+  }
+  .main .container .say .say_item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .container .say .say_item h2 {
+    font-size: 22.44px;
+  }
+  .main .container .say .say_item span {
+    display: none;
+  }
+  .main .container .say .say__content {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .main .container .say .say__content img {
+    width: 100%;
+  }
+  .main .container .sing {
+    padding: 40px 0;
+    background: rgba(232, 236, 255, 0.3);
+  }
+  .main .container .sing .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .sing .container .sing_item h2 {
+    font-size: 14px;
+  }
+  .main .container .sing .container .sing_item h3 {
+    font-size: 15px;
+  }
+  .main .container .sing .container .sing_content {
+    border-radius: 10px;
+    border: 1px solid #058aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 200px;
+  }
+  .main .container .sing .container .sing_content span {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .main .container .sing .container .sing_content p {
+    padding-right: 30px;
+  }
+}
+@media (max-width: 447px) {
+  .main .container {
+    padding: 0 50px;
+  }
+  .main .container .smart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .smart .smart_item h3 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .main .container .smart .smart_item h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .main .container .smart .smart_item h2 span {
+    font-size: 30px;
+  }
+  .main .container .smart .smart_item p {
+    text-align: center;
+    font-size: 12px;
+  }
+  .main .container .smart .smart_item .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .smart .smart_item .buttons button {
+    font-size: 10px;
+  }
+  .main .container .smart .smart__img {
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .smart .smart__img img {
+    width: 100%;
+  }
+  .main .container .about {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .about .about_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .about .about_item h3 {
+    font-size: 18px;
+  }
+  .main .container .about .about_item h2 {
+    text-align: center;
+    font-size: 23px;
+  }
+  .main .container .about .about_item p {
+    text-align: center;
+    font-size: 10px;
+  }
+  .main .container .about .about_item button {
+    font-size: 14px;
+  }
+  .main .container .work_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .main .container .work_item .work__box {
+    width: 32%;
+  }
+  .main .container .work_item .work__box .work__img {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .main .container .work_item .work__box h3 {
+    font-size: 20px;
+  }
+  .main .container .work_item .work__box p {
+    font-size: 12px;
+  }
+  .main .container .say {
+    padding: 40px 0;
+  }
+  .main .container .say .say_item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main .container .say .say_item h2 {
+    font-size: 22.44px;
+  }
+  .main .container .say .say_item span {
+    display: none;
+  }
+  .main .container .say .say__content {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .main .container .say .say__content img {
+    width: 100%;
+  }
+  .main .container .sing {
+    padding: 40px 0;
+    background: rgba(232, 236, 255, 0.3);
+  }
+  .main .container .sing .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .container .sing .container .sing_item h2 {
+    font-size: 14px;
+  }
+  .main .container .sing .container .sing_item h3 {
+    font-size: 15px;
+  }
+  .main .container .sing .container .sing_content {
+    border-radius: 10px;
+    border: 1px solid #058aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: 200px;
+  }
+  .main .container .sing .container .sing_content span {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .main .container .sing .container .sing_content p {
+    padding-right: 30px;
+  }
+}/*# sourceMappingURL=main.css.map */
